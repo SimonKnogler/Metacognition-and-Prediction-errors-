@@ -1,6 +1,9 @@
 clear all
 close all
 %specify files to analyse
+%These files need to be obtained from the .csv output of the psychopy experiment. 
+%They will have respective prolific IDs and need to be uplaoded in matlab before one is able to analyse them with this script.
+%ALSO(!) Jags 3.4.0 needs to be downloaded on your machine and ideally saved in the same working directory than matlab and the files you are working with.
 filecode{1} = '5d41925ef7b99500012b960e_motion_arrcues_09_12_2022-02-07_13h18.41.640';
 filecode{2} = '5e66cb6046fdb7455e9d480d_motion_arrcues_09_12_2022-02-07_12h23.09.177';
 filecode{3} = '5fd65eb179363c54f7e0ab96_EF_10_07_motion_arrcues_09_12_2022-02-07_12h08.26.815';
